@@ -21,6 +21,19 @@ Nếu đang bị lồng `Hole/Hole`, xem lại phần “Chuẩn hoá thư mục
 
 **Mục đích:** Biết GPU + VRAM để chọn cỡ model (xem [`QUYET_DINH_VA_THUC_HIEN.md`](./QUYET_DINH_VA_THUC_HIEN.md): mặc định `Qwen2.5-Coder-1.5B-Instruct` cho T4).
 
+### Nếu báo `nvidia-smi: command not found`
+
+Runtime của bạn **chưa có GPU** (đang là CPU), nên máy Colab không cài stack NVIDIA và không có lệnh `nvidia-smi`.
+
+**Cách xử lý:**
+
+1. Menu **Runtime** (Thời gian chạy) → **Change runtime type** (Thay đổi loại thời gian chạy).
+2. **Hardware accelerator** → chọn **T4 GPU** (hoặc GPU khác nếu tài khoản Pro có).
+3. **Save** → Colab **kết nối lại** máy chủ (có thể mất vài giây).
+4. Chạy lại ô `!nvidia-smi` — lúc này phải in bảng driver + tên GPU + VRAM.
+
+**Lưu ý:** Colab miễn phí đôi khi **hết slot GPU**; nếu không chọn được GPU, thử lại sau hoặc dùng gói trả phí. Không bật GPU thì **không train** được LLM bằng CUDA như trong notebook Unsloth.
+
 ---
 
 ## Bước 2 — Google Drive (nên bật trước khi tải model / lưu checkpoint)

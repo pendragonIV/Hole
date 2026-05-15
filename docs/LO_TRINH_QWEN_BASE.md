@@ -6,6 +6,8 @@ Tài liệu này mô tả các bước thực hiện khi chọn **họ Qwen (Ali
 
 **Quyết định đã chốt + lý do (cập nhật theo tra cứu công khai):** xem [`QUYET_DINH_VA_THUC_HIEN.md`](./QUYET_DINH_VA_THUC_HIEN.md) — trong đó có **Model ID mặc định cho Colab T4** và giải thích vì sao ưu tiên **Qwen2.5-Coder** cho vòng 1 thay vì các bản **Qwen3-Coder** cỡ lớn trên HF.
 
+**Đã clone repo Hole trên Colab?** Làm tiếp theo thứ tự trong [`COLAB_SAU_KHI_CLONE.md`](./COLAB_SAU_KHI_CLONE.md).
+
 > **Lưu ý:** ID model trên Hugging Face thay đổi theo thời gian. Trước mỗi phiên làm việc, hãy mở [Hugging Face — Qwen](https://huggingface.co/Qwen) và chọn đúng repo **Instruct** hoặc **Coder** phù hợp kích thước + license bạn chấp nhận.
 
 ---

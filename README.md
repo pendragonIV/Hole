@@ -8,6 +8,7 @@ Repo tài liệu + quy trình huấn luyện model code (base **Qwen / Qwen-Code
 |------|--------|
 | [docs/LO_TRINH_QWEN_BASE.md](docs/LO_TRINH_QWEN_BASE.md) | Lộ trình đầy đủ: HF, dataset, Colab, eval, GGUF, VS Code |
 | [docs/QUYET_DINH_VA_THUC_HIEN.md](docs/QUYET_DINH_VA_THUC_HIEN.md) | Quyết định đã chốt + lý do + Model ID mặc định Colab T4 |
+| [docs/COLAB_SAU_KHI_CLONE.md](docs/COLAB_SAU_KHI_CLONE.md) | **Bước tiếp theo sau `git clone` trên Colab** (GPU, Drive, HF, Unsloth, train thử) |
 
 ## Remote GitHub
 
@@ -16,7 +17,7 @@ Repo tài liệu + quy trình huấn luyện model code (base **Qwen / Qwen-Code
 
 ## Dùng trên Google Colab
 
-Sau khi đã **push** code lên GitHub, trong Colab:
+Sau khi đã **push** code lên GitHub, trong Colab clone repo rồi đọc **[docs/COLAB_SAU_KHI_CLONE.md](docs/COLAB_SAU_KHI_CLONE.md)** để làm các bước tiếp theo (GPU, Drive, Unsloth, train thử).
 
 ```python
 !git clone https://github.com/pendragonIV/Hole.git

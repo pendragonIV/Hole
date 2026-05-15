@@ -2,6 +2,8 @@
 
 Chạy **theo thứ tự** từng ô trong Colab. Giả định bạn đã clone [pendragonIV/Hole](https://github.com/pendragonIV/Hole) và `pwd` là **root repo** (cùng cấp với `README.md`, `docs/`, thư mục ẩn `.git`).
 
+**Cách nhanh:** mở notebook gộp sẵn các bước train smoke — [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pendragonIV/Hole/blob/main/notebooks/Hole_Qwen25_Coder_1.5B_Alpaca.ipynb) — file trong repo: [`notebooks/Hole_Qwen25_Coder_1.5B_Alpaca.ipynb`](../notebooks/Hole_Qwen25_Coder_1.5B_Alpaca.ipynb). *(Extension Colab trong IDE chỉ giúp bạn gửi ô code tới runtime; không thể thay bạn bật GPU hay đăng nhập Google.)*
+
 Nếu đang bị lồng `Hole/Hole`, xem lại phần “Chuẩn hoá thư mục” trong [`LO_TRINH_QWEN_BASE.md`](./LO_TRINH_QWEN_BASE.md) mục 2 hoặc README repo — hoặc chạy:
 
 ```python

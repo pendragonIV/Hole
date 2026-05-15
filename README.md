@@ -9,6 +9,7 @@ Repo tài liệu + quy trình huấn luyện model code (base **Qwen / Qwen-Code
 | [docs/LO_TRINH_QWEN_BASE.md](docs/LO_TRINH_QWEN_BASE.md) | Lộ trình đầy đủ: HF, dataset, Colab, eval, GGUF, VS Code |
 | [docs/QUYET_DINH_VA_THUC_HIEN.md](docs/QUYET_DINH_VA_THUC_HIEN.md) | Quyết định đã chốt + lý do + Model ID mặc định Colab T4 |
 | [docs/COLAB_SAU_KHI_CLONE.md](docs/COLAB_SAU_KHI_CLONE.md) | **Bước tiếp theo sau `git clone` trên Colab** (GPU, Drive, HF, Unsloth, train thử) |
+| [notebooks/Hole_Qwen25_Coder_1.5B_Alpaca.ipynb](notebooks/Hole_Qwen25_Coder_1.5B_Alpaca.ipynb) | Notebook Colab: cài Unsloth → restart → Drive → train 60 bước → lưu LoRA |
 
 ## Remote GitHub
 
@@ -27,15 +28,11 @@ Sau khi đã **push** code lên GitHub, trong Colab clone repo rồi đọc **[d
 
 Hoặc **Upload** / **Mount Google Drive** rồi mở file `.md` trong repo để đọc song song với notebook **Unsloth** (khuyến nghị: lấy notebook gốc từ [unslothai/unsloth](https://github.com/unslothai/unsloth) rồi chỉnh `model_name` theo `docs/QUYET_DINH_VA_THUC_HIEN.md`).
 
-### Gợi ý nút "Open in Colab"
+### Notebook train smoke (Open in Colab)
 
-Khi đã có URL repo cố định, thêm vào README dòng:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pendragonIV/Hole/blob/main/notebooks/Hole_Qwen25_Coder_1.5B_Alpaca.ipynb)
 
-```markdown
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pendragonIV/Hole/blob/main/notebooks/ten_file.ipynb)
-```
-
-(Tạo file `notebooks/*.ipynb` trên GitHub trước nếu muốn dùng badge.)
+Hoặc clone repo rồi mở `notebooks/Hole_Qwen25_Coder_1.5B_Alpaca.ipynb`. Chi tiết từng bước: [docs/COLAB_SAU_KHI_CLONE.md](docs/COLAB_SAU_KHI_CLONE.md).
 
 ## Không đưa lên Git
 
